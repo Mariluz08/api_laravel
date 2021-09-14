@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\DB;
 
 class UserController extends Controller
 {
-    //
+    //pruebas
 
      public function listAll(Request $request)
         
