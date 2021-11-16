@@ -23,7 +23,7 @@ Route::get('/user', function (Request $request) {
     return $request->user();
 })->middleware('auth:api');
 
-Route::get('/articulos', [ArticuloController::class, 'index']);
+Route::get('/articulospruebas', [ArticuloController::class, 'index']);
 Route::get('/compraspruebas', [ComprasController::class, 'index']);
 Route::get('/ventas', [VentasController::class, 'index']);
 
